@@ -1,0 +1,219 @@
+@use "../../../../styles/variables" as var;
+@use "../../../../styles/mixins.scss" as mx;
+
+.form{
+  color: var.$secondary-white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 5px;
+  gap: 16px;
+
+  @include mx.media-q("md") {
+    padding: 24px 16px;
+    gap: 32px;
+  }
+
+  & > p{
+    @include mx.apply-font-styles(var.$h2-font);
+    font-weight: 600;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 20px;
+
+    @media (min-width: 420px) {
+      font-size: 24px;
+    }
+
+    @include mx.media-q("md") {
+      font-weight: 700;
+      gap: 13px;
+    }
+
+    .icon{
+      display: block;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 90px;
+    .vertical_line{
+      width: 1px;
+      height: 80px;
+      background: var.$primary-border;
+      animation: 1s linear line-opacity infinite;
+
+      @include mx.media-q("md") {
+        height: 122px;
+      }
+    }
+    .currency,
+    .text{
+      color: var.$secondary-white;
+      @include mx.apply-font-styles(var.$h2-font);
+      font-size: 64px;
+      line-height: normal;
+
+      @include mx.media-q("md") {
+        font-size: 100px;
+      }
+    }
+
+    .currency{
+      font-size: 40px;
+      padding-top: 10px;
+      margin-left: 5px;
+
+      @include mx.media-q("md") {
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 48px;
+      }
+    }
+
+    .error{
+      @include mx.apply-font-styles(var.$h2-font);
+      font-size: 90px;
+      color: var.$secondary-error;
+      text-align: center;
+      width: 100%;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      animation: 1s linear error-slide;
+
+      @media (min-width: 420px) {
+        font-size: 96px;
+      }
+
+      @include mx.media-q("md") {
+        font-size: 100px;
+      }
+    }
+
+    .error._message{
+      font-size: 35px;
+      top: 20%;
+
+      @media (min-width: 420px) {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    @include mx.media-q("md") {
+      gap: 16px;
+    }
+  }
+
+  .label{
+    display: inline-block;
+    @include mx.apply-font-styles(var.$text-20-font);
+    font-weight: 400;
+    font-size: 14px;
+    color: var.$secondary-white;
+    border: 1px solid var.$secondary-white;
+    border-radius: 8px;
+    transition: all var.$transition-duration-base var.$transition-timing-base;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 28px;
+    height: 45px;
+    position: relative;
+
+    @include mx.media-q("md") {
+      font-size: 18px;
+      height: 52px;
+    }
+  
+    @include mx.media-q("xl") {
+      font-size: 20px;
+      padding: 0 32px;
+      height: 62px;
+    }
+
+    .input{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 45px;
+      opacity: 0;
+      cursor: pointer;
+
+      @include mx.media-q("md") {
+        height: 52px;
+      }
+    
+      @include mx.media-q("xl") {
+        height: 62px;
+      }
+    }
+
+    &._active,
+    &:hover,
+    &:focus {
+      background: var.$secondary-hover;
+      color: var.$secondary-black;
+      border: 1px solid var.$primary-border;
+      box-shadow:
+      inset 1px 1px var.$primary-border,
+      inset -1px -1px var.$primary-border;
+    }
+  }
+  .btn._hide{
+    display: none;
+
+    @media (min-width: 483px) {
+      display: inline-block;
+    }
+  }
+
+  &._active{
+    border: 1px solid var.$primary-border;
+    box-shadow:
+    inset 1px 1px var.$primary-border,
+    inset -1px -1px var.$primary-border;
+  }
+}
+
+
+// Анімація повідомлення про помилку.
+@keyframes error-slide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100%) scale(2);
+  }
+}
+
+// Анімація курсор.
+@keyframes line-opacity {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

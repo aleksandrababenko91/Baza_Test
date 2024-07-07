@@ -1,0 +1,134 @@
+@use "../../../styles/variables" as var;
+@use "../../../styles/mixins.scss" as mx;
+
+.btn_main {
+  @include mx.apply-font-styles(var.$button);
+  position: relative;
+  overflow: hidden;
+  color: var.$secondary-white;
+  padding: 10.5px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: none;
+  border: none;
+
+  @media (any-hover: hover){
+    transition: all var.$transition-duration-base var.$transition-timing-base;
+  }
+
+  @include mx.media-q("md") {
+    padding: 14px 24px;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var.$button-gradient;
+    box-shadow:
+      inset 3px 3px 3px rgba(255, 255, 255, 0.213),
+      inset -3px -3px 3px rgba(88, 4, 70, 0.532);
+    transition: all var.$transition-duration-base var.$transition-timing-base;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var.$button-hover-gradient;
+    box-shadow:
+      inset 3px 3px 3px rgba(255, 255, 255, 0.213),
+      inset -3px -3px 3px rgba(54, 4, 88, 0.532);
+    transition: all var.$transition-duration-base var.$transition-timing-base;
+  }
+
+  @media (any-hover: hover){
+    &:hover::after{
+      opacity: 0;
+    }
+
+    &:hover::before{
+      opacity: 1;
+    }
+  }
+  
+  @media (hover: none){
+    &:active::after{
+      opacity: 0;
+    }
+
+    &:active::before{
+      opacity: 1;
+    }
+  }
+
+  &:disabled::after {
+    opacity: 0;
+  }
+  &:disabled {
+    background: var.$secondary-gray;
+    color: var.$secondary-text;
+    cursor: default;
+  }
+  &:disabled::after{
+    opacity: 0;
+  }
+  &:disabled::before{
+    opacity: 0;
+  }
+}
+
+.btn_modal {
+  @include mx.apply-font-styles(var.$text-20-font);
+  font-size: 14px;
+  font-weight: 400;
+  color: var.$secondary-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 28px;
+  height: 45px;
+  border: 1px solid var.$secondary-white;
+  border-radius: 8px;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  transition: all var.$transition-duration-base var.$transition-timing-base;
+
+  @include mx.media-q("md") {
+    height: 52px;
+    font-size: 18px;
+  }
+
+  @include mx.media-q("xl") {
+    height: 62px;
+    font-size: 20px;
+    padding: 0 32px;
+  }
+
+  &:hover,
+  &:focus {
+    background: var.$secondary-hover;
+    color: var.$secondary-black;
+    border: 1px solid var.$primary-border;
+    box-shadow:
+    inset 1px 1px var.$primary-border,
+    inset -1px -1px var.$primary-border;
+  }
+
+  &:disabled {
+    background: var.$secondary-gray;
+    color: var.$secondary-text;
+    cursor: default;
+  }
+}

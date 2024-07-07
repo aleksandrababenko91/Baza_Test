@@ -1,0 +1,28 @@
+@use "../../../styles/variables" as var;
+
+.header {
+  .logo {
+    display: block;
+    width: 60px;
+    height: 60px;
+    fill: var.$secondary-white;
+  }
+}
+
+.footer {
+  .logo {
+    display: block;
+    width: 120px;
+    height: 120px;
+    fill: var.$secondary-white;
+  }
+}
+
+@media (max-width: 696px) {
+  .footer {
+    .logo {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+@use "../../styles/variables" as var;
+@use "../../styles/mixins" as mixin;
+
+.section {
+  background-image: var.$primary-gradient;
+  color: var.$secondary-white;
+  width: 100%;
+  padding: 32px 16px;
+
+  @include mixin.media-q("md") { 
+  padding: 48px 16px;
+  }
+
+  @include mixin.media-q("xl") { 
+    padding: 60px 16px;
+
+}
+  @include mixin.media-q("xxxl") { 
+    padding: 72px 16px;
+}
+
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  @include mixin.media-q("md") { 
+    gap: 32px;
+    }
+  
+  @include mixin.media-q("xl") { 
+    gap: 48px;
+  }
+
+  @include mixin.media-q("xxxl") { 
+    gap: 56px;
+  }
+}
+
+.title {
+  @include mixin.apply-font-styles(var.$h7-font);
+  @include mixin.media-q("md") { 
+    @include mixin.apply-font-styles(var.$h5-font);
+  }
+  @include mixin.media-q("xl") { 
+    @include mixin.apply-font-styles(var.$h1-font);
+  }
+
+
+}
+
+.sliderContainer {
+
+  width: 95vw;
+
+  
+  @include mixin.media-q("md") { 
+      width: 100%;
+    }
+    @include mixin.media-q("xl") { 
+      max-width: 1238px;
+  }
+    @include mixin.media-q("xxxl") { 
+      max-width: 1920px;
+    }
+  }
+
+.titleRow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 320px;
+
+  @include mixin.media-q("md") { 
+    width: 688px;
+  }
+  
+  @include mixin.media-q("xl") { 
+  position: relative;
+  padding: 10px 0px;
+  width: 1236px;
+  //height: 80px;
+  
+}
+
+  @include mixin.media-q("xxxl") { 
+  width: 1320px;
+  }
+
+}
+
+.prevBtn {
+  transform: rotate(180deg);
+}
+
+.navigation {
+  display: none;
+  @include mixin.media-q("md") { 
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  gap: 32px;
+  gap: 16px;
+  }
+  
+}
+
+
+
+

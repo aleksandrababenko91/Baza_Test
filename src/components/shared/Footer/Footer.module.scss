@@ -1,0 +1,79 @@
+@use "../../../styles/variables" as var;
+
+.section {
+  background-color: var.$primary-footer;
+}
+
+.block {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 100%;
+  max-width: 1024px;
+  @media (min-width: 1025px) {
+    max-width: 1680px;
+  }
+}
+
+.footer {
+  margin: 24px auto;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (min-width: 1025px) {
+    margin: 68px auto 56px auto;
+    padding: 8px 0;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  align-items: center;
+  margin-top: 48px;
+
+  @media (min-width: 1025px) {
+    width: auto;
+    margin-top: 0;
+    align-items: flex-start;
+  }
+}
+.positionContacts {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 24px;
+  @media (min-width: 481px) {
+    right: 10px;
+  }
+  @media (min-width: 697px) {
+    right: 30px;
+  }
+}
+
+.smallScreen {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 20px 16px 20px;
+  gap: 16px;
+
+  @media (min-width: 481px) {
+    display: none;
+  }
+}
+
+.bigScreen {
+  display: none;
+
+  @media (min-width: 481px) {
+    display: block;
+  }
+}
+
+.centerItem {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,30 @@
+@use "../../../styles/variables" as var;
+.scrollToTopBtn{
+display: none;
+}
+
+.scrollToTopBtnActive {
+  display: block;
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  z-index: 9;
+
+  width: 40px;
+  height: 40px;
+
+  padding-top: 6px;
+
+  border: 2px solid var.$primary-border;
+  background-color: var.$primary-fon-card;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+  transition: background-color 0.5s var.$transition-timing-base;
+
+}
+
+.scrollToTopBtnActive:hover {
+  background-color: var.$secondary-hover;
+}

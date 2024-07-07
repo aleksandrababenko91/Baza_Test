@@ -1,0 +1,42 @@
+@use "../../../styles/variables" as var;
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: var.$primary-primary;
+  padding: 12.5px 0;
+}
+
+.container {
+  max-width: 1680px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo {
+  z-index: 9;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  & > {
+    flex-shrink: 0;
+  }
+  @media (min-width: 1050px) {
+    gap: 48px;
+  }
+}
+
+.headerBtn {
+  display: none;
+  @media (min-width: 993px) {
+    display: block;
+  }
+}

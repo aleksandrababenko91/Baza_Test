@@ -1,0 +1,102 @@
+@use "/src/styles/variables" as var;
+@use "/src/styles/mixins" as mx;
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 10px 16px;
+  flex-direction: column;
+
+  @media (min-width: 421px) {
+    align-items: center;
+    padding: 25px 0;
+  }
+  @media (min-width: 609px) {
+    gap: 167px;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 25px 14px;
+  }
+  @media (min-width: 1367px) {
+    gap: 189px;
+    padding: 12px 0;
+  }
+}
+
+.person {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.imageContainer {
+  position: relative;
+  width: 173px;
+  height: 173px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  & > img {
+    object-fit: cover;
+  }
+}
+
+.profile {
+  position: absolute;
+  left: 144px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  background: rgba(210, 210, 210, 0.5);
+  text-align: left;
+  top: 39px;
+  @media (min-width: 421px) {
+    top: -25px;
+  }
+  @media (min-width: 1367px) {
+    top: 0px;
+  }
+}
+
+.personInfo {
+  white-space: nowrap;
+  margin-bottom: 8px;
+}
+
+.name {
+  @include mx.apply-font-styles(var.$h3-font);
+  letter-spacing: 0.01em;
+  color: var.$secondary-black;
+}
+
+.role {
+  @include mx.apply-font-styles(var.$text-16-font);
+  letter-spacing: 0.01em;
+  color: var.$secondary-black;
+}
+
+.date {
+  @include mx.apply-font-styles(var.$text-16-font);
+  letter-spacing: 0.01em;
+  color: var.$secondary-text;
+}
+
+.text {
+  @include mx.apply-font-styles(var.$text-14-font);
+  color: var.$secondary-white;
+  max-width: 600px;
+  text-align: left;
+  padding: 0;
+  @media (min-width: 421px) {
+    @include mx.apply-font-styles(var.$text-18-font);
+  }
+  @media (min-width: 609px) {
+    padding: 10px 0;
+    @include mx.apply-font-styles(var.$text-18-font);
+  }
+  @media (min-width: 1367px) {
+    @include mx.apply-font-styles(var.$text-16-font);
+    padding: 10px 50px;
+  }
+}

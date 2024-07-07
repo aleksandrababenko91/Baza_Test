@@ -1,0 +1,48 @@
+@use "../../../styles/variables" as var;
+@use "../../../styles/mixins.scss" as mx;
+
+.wrapper{
+  padding: 16px 10px 40px 10px;
+  margin: auto;
+
+  @include mx.media-q("md") {
+    padding: 40px 16px;
+  }
+  
+  @media (max-height: 430px) {
+    padding: 40px 16px 80px 16px;
+  }
+}
+
+.card{
+  border: 2px solid var.$primary-border;
+  border-radius: 12px;
+  width: clamp(288px, 88vw, 826px);
+  min-height: 274px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var.$primary-fon-card;
+  color: var.$secondary-white;
+  position: relative;
+
+  @include mx.media-q("md") {
+    min-height: 384px;
+  }
+
+  @include mx.media-q("xl") {
+    min-height: 429px;
+  }
+
+  .close_btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    
+    @include mx.media-q("md") {
+      top: 24px;
+      right: 25px;
+    }
+  }
+}
