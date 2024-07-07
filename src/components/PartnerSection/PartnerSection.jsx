@@ -6,7 +6,6 @@ import { Navigation, Pagination, EffectCoverflow, Autoplay } from "swiper/module
 import CarouselButton from "../shared/Carousel/CarouselButton/CarouselButton";
 import CarouselPagination from "../shared/Carousel/CarouselPagination/CarouselPagination";
 import clsx from "clsx";
-import { isFirefox } from 'react-device-detect';  //FireFox
 import { useTranslations } from "next-intl";
 import styles from "./PartnerSection.module.scss";
 //import { partnerCardItems } from "./partnerCardItems";
@@ -46,10 +45,9 @@ const PartnerSection = () => {
             prevEl={".partner-prevBtn"}
             nextEl={".partner-nextBtn"}
             loop={true}   
-            effect={isFirefox ? 'slide' : 'coverflow'}
+            effect='coverflow'
             centeredSlides={true}
-            Autoplay={true}
-            slidesPerView={'auto'}
+            slidesPerView={1}
             spaceBetween={40}
             loopAdditionalSlides={0}
             breakpoints={{
