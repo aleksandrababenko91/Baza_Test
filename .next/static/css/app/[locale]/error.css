@@ -1,0 +1,175 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/MainButton/mainbutton.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.mainbutton_btn_main__mguuL {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  position: relative;
+  overflow: hidden;
+  color: #fcfcfc;
+  padding: 10.5px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: none;
+  border: none;
+}
+@media (any-hover: hover) {
+  .mainbutton_btn_main__mguuL {
+    transition: all 0.3s ease;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mainbutton_btn_main__mguuL {
+    padding: 14px 24px;
+  }
+}
+.mainbutton_btn_main__mguuL::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(160deg, #e37cc1 0%, #e231a8 36.5%, #9d2f79 76%, #851a62 100%);
+  box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.213), inset -3px -3px 3px rgba(88, 4, 70, 0.532);
+  transition: all 0.3s ease;
+}
+.mainbutton_btn_main__mguuL::before {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(130deg, #6c2276 0%, #682d78 32%, #643579 56%, #613b7a 75%, #5d447c 91%);
+  box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.213), inset -3px -3px 3px rgba(54, 4, 88, 0.532);
+  transition: all 0.3s ease;
+}
+@media (any-hover: hover) {
+  .mainbutton_btn_main__mguuL:hover::after {
+    opacity: 0;
+  }
+  .mainbutton_btn_main__mguuL:hover::before {
+    opacity: 1;
+  }
+}
+@media (hover: none) {
+  .mainbutton_btn_main__mguuL:active::after {
+    opacity: 0;
+  }
+  .mainbutton_btn_main__mguuL:active::before {
+    opacity: 1;
+  }
+}
+.mainbutton_btn_main__mguuL:disabled::after {
+  opacity: 0;
+}
+.mainbutton_btn_main__mguuL:disabled {
+  background: #9a9a9a;
+  color: #363636;
+  cursor: default;
+}
+.mainbutton_btn_main__mguuL:disabled::after {
+  opacity: 0;
+}
+.mainbutton_btn_main__mguuL:disabled::before {
+  opacity: 0;
+}
+
+.mainbutton_btn_modal__1MLVQ {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 28px;
+  height: 45px;
+  border: 1px solid #fcfcfc;
+  border-radius: 8px;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+@media only screen and (min-width: 768px) {
+  .mainbutton_btn_modal__1MLVQ {
+    height: 52px;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .mainbutton_btn_modal__1MLVQ {
+    height: 62px;
+    font-size: 20px;
+    padding: 0 32px;
+  }
+}
+.mainbutton_btn_modal__1MLVQ:hover, .mainbutton_btn_modal__1MLVQ:focus {
+  background: #ededed;
+  color: #030110;
+  border: 1px solid #ff62ce;
+  box-shadow: inset 1px 1px #ff62ce, inset -1px -1px #ff62ce;
+}
+.mainbutton_btn_modal__1MLVQ:disabled {
+  background: #9a9a9a;
+  color: #363636;
+  cursor: default;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/app/[locale]/page.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.page_mainErr__dCdfw {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  min-height: 90vh;
+  padding: 10px;
+  gap: 8vh;
+}
+.page_mainErr__dCdfw p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  line-height: 150%;
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+  color: #9a9a9a;
+}
+.page_mainErr__dCdfw p span {
+  font-size: 36px;
+}
+@media (min-width: 420px) {
+  .page_mainErr__dCdfw p {
+    font-size: 34px;
+  }
+  .page_mainErr__dCdfw p span {
+    font-size: 42px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .page_mainErr__dCdfw p {
+    font-size: 46px;
+  }
+  .page_mainErr__dCdfw p span {
+    font-size: 52px;
+  }
+}
