@@ -25,6 +25,12 @@
   &._active{
     opacity: 1;
     filter: none;
+    @include mixin.media-q("md") { 
+      transform: translateX(-10px);
+    }
+    @include mixin.media-q("xl") { 
+    transform: translateX(-30px);
+    }
   }
 
   &._disabled{
@@ -33,9 +39,13 @@
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
     pointer-events: none;
+    transform: translateX(-30px);
+
  
-    @include mixin.media-q("md") { 
+    @include mixin.media-q("xxxl") { 
       display: flex;
+      transform: translateX(-20px);
+
     }
   }
 

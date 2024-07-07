@@ -46,9 +46,9 @@ const PartnerSection = () => {
             prevEl={".partner-prevBtn"}
             nextEl={".partner-nextBtn"}
             loop={true}   
-            effect='coverflow'
+            effect={isFirefox ? 'slide' : 'coverflow'}
             centeredSlides={true}
-
+            Autoplay={true}
             slidesPerView={'auto'}
             spaceBetween={40}
             loopAdditionalSlides={0}

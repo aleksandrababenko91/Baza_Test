@@ -1,0 +1,3080 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/ArticleCard/ArticleCard.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.ArticleCard_card__QaK95 {
+  border-radius: 8px;
+  border: 2px solid #ff62ce;
+  background-color: #180530;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 16px;
+}
+@media only screen and (min-width: 768px) {
+  .ArticleCard_card__QaK95 {
+    padding: 32px 24px 24px;
+    gap: 24px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ArticleCard_card__QaK95 {
+    padding: 32px 24px 24px 24px;
+  }
+}
+
+.ArticleCard_img__10DCO {
+  position: relative;
+  height: 242px;
+}
+
+.ArticleCard_image__FP4wd {
+  object-fit: cover;
+}
+
+.ArticleCard_content__d3dkO {
+  max-width: 100%;
+  height: 184px;
+}
+@media only screen and (min-width: 768px) {
+  .ArticleCard_content__d3dkO {
+    height: 148px;
+  }
+}
+.ArticleCard_content__d3dkO h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 16px;
+  font-weight: 700;
+  color: #fcfcfc;
+}
+.ArticleCard_content__d3dkO p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  color: #fcfcfc;
+}
+@media only screen and (min-width: 768px) {
+  .ArticleCard_content__d3dkO p {
+    -webkit-line-clamp: 4;
+  }
+}
+
+.ArticleCard_linkRead__1wkGe {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-family: "Montserrat", sans-serif !important;
+  display: block;
+  padding: 10px 4px;
+  margin-left: auto;
+  margin-right: 0;
+  color: #fcfcfc;
+}
+
+.ArticleCard_date__5Ej82 {
+  position: absolute;
+  bottom: 4px;
+  right: 2px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  background-color: #9a9a9a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/MainLink/MainLink.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.MainLink_link__QA6XR {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  position: relative;
+  padding: 3px 0;
+  color: #fcfcfc;
+  transition: all 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .MainLink_link__QA6XR:hover {
+    color: #c0a4b7;
+  }
+}
+.MainLink_link--default__F1z8M::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #c0a4b7;
+  transition: all 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .MainLink_link--default__F1z8M:hover {
+    color: #c0a4b7;
+  }
+}
+.MainLink_link--default__F1z8M.MainLink_active__ZlFdj {
+  color: #c0a4b7;
+}
+.MainLink_link--default__F1z8M.MainLink_active__ZlFdj::before {
+  width: 100%;
+}
+.MainLink_link--help__TaXn6 {
+  border-bottom: 1px solid #fcfcfc;
+}
+@media (any-hover: hover) {
+  .MainLink_link--help__TaXn6:hover, .MainLink_link--help__TaXn6:focus {
+    border-bottom: 1px solid #c0a4b7;
+  }
+  .MainLink_link--help__TaXn6:active {
+    border-bottom: 1px solid #fcfcfc;
+  }
+}
+@media (max-width: 696px) {
+  .MainLink_link--help__TaXn6 {
+    font-size: 14px;
+  }
+}
+.MainLink_link--structure__cdQZH {
+  border-bottom: #fcfcfc;
+}
+@media (any-hover: hover) {
+  .MainLink_link--structure__cdQZH:hover, .MainLink_link--structure__cdQZH:focus {
+    border-bottom: #c0a4b7;
+  }
+  .MainLink_link--structure__cdQZH:active {
+    border-bottom: #fcfcfc;
+  }
+}
+@media (max-width: 696px) {
+  .MainLink_link--structure__cdQZH {
+    font-size: 14px;
+  }
+}
+@media (any-hover: hover) {
+  .MainLink_link--footer__UnvxS:active {
+    text-decoration: underline;
+  }
+}
+@media (max-width: 696px) {
+  .MainLink_link--footer__UnvxS {
+    font-size: 14px;
+  }
+}
+.MainLink_link--burger__YM0sU {
+  font-size: 20px;
+  position: relative;
+  display: block;
+  font-weight: 700;
+  line-height: 1.2;
+  padding-left: 14px;
+  height: 100%;
+}
+.MainLink_link--burger__YM0sU.MainLink_active__ZlFdj {
+  color: #c0a4b7;
+}
+.MainLink_link--burger__YM0sU.MainLink_active__ZlFdj::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #c0a4b7;
+}
+.MainLink_link--card__lFNz1 {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  padding: 10px 4px;
+}
+.MainLink_link--card__lFNz1::before {
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: #ff62ce;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .MainLink_link--card__lFNz1:hover {
+    color: #fcfcfc;
+  }
+  .MainLink_link--card__lFNz1:hover::before {
+    width: 100%;
+  }
+}
+@media (max-width: 696px) {
+  .MainLink_link__QA6XR {
+    line-height: 140%;
+    letter-spacing: 0.01em;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/Carousel/CarouselButton/CarouselButton.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.CarouselButton_sliderButton__F_rnc {
+  width: 40px;
+  height: 60px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  transition: opacity 0.3s ease 0s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.CarouselButton_sliderButton__F_rnc:disabled {
+  opacity: 0.1;
+  pointer-events: none;
+}
+.CarouselButton_sliderButton__F_rnc > svg {
+  display: block;
+  width: 19px;
+  height: 30px;
+  fill: #fff;
+  transition: fill 0.3s ease;
+}
+@media (any-hover: hover) {
+  .CarouselButton_sliderButton__F_rnc:hover > svg {
+    fill: #c0a4b7;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/shared/Carousel/CarouselPagination/CarouselPagination.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.sliderPagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  gap: 8px;
+}
+.sliderPagination > span {
+  cursor: pointer;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #fcfcfc;
+  transition: all 0.3s ease 0s;
+}
+@media only screen and (min-width: 768px) {
+  .sliderPagination > span {
+    pointer-events: all;
+    width: 16px;
+    height: 16px;
+  }
+}
+.sliderPagination > span.swiper-pagination-bullet-active {
+  background-color: #2e0535;
+}
+@media only screen and (min-width: 768px) {
+  .sliderPagination > span.swiper-pagination-bullet-active {
+    transform: scale(1.25);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .sliderPagination {
+    gap: 20px;
+  }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/ArticlesSection/ArticlesSection.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.ArticlesSection_articlesContainer__NtUwo {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+@media only screen and (min-width: 768px) {
+  .ArticlesSection_articlesContainer__NtUwo {
+    padding: 48px 40px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ArticlesSection_articlesContainer__NtUwo {
+    padding: 60px 64px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .ArticlesSection_articlesContainer__NtUwo {
+    padding: 72px 120px;
+  }
+}
+
+.ArticlesSection_wrapperAll__kzzhs {
+  position: relative;
+  margin: 0 auto 20px auto;
+  max-width: 1320px;
+}
+@media only screen and (min-width: 768px) {
+  .ArticlesSection_wrapperAll__kzzhs {
+    margin-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ArticlesSection_wrapperAll__kzzhs {
+    margin-bottom: 48px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .ArticlesSection_wrapperAll__kzzhs {
+    margin-bottom: 56px;
+  }
+}
+
+.ArticlesSection_title__CyUYR {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  line-height: 150%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .ArticlesSection_title__CyUYR {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ArticlesSection_title__CyUYR {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .ArticlesSection_title__CyUYR {
+    margin: 10px 0;
+  }
+}
+
+.ArticlesSection_navigationButtons___3LbW {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .ArticlesSection_navigationButtons___3LbW {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ArticlesSection_navigationButtons___3LbW {
+    gap: 32px;
+    top: -1px;
+  }
+}
+
+.ArticlesSection_prevElArticle___H__q {
+  transform: rotate(180deg);
+  height: 68px;
+}
+@media only screen and (min-width: 1366px) {
+  .ArticlesSection_prevElArticle___H__q {
+    height: 60px;
+  }
+}
+
+.ArticlesSection_nextElArticle__gOl3M {
+  height: 68px;
+}
+@media only screen and (min-width: 1366px) {
+  .ArticlesSection_nextElArticle__gOl3M {
+    height: 60px;
+  }
+}
+
+.ArticlesSection_mySwiperWrapper__vkjvR {
+  margin: 0 auto;
+  max-width: 397px !important;
+}
+@media only screen and (min-width: 768px) {
+  .ArticlesSection_mySwiperWrapper__vkjvR {
+    max-width: 818px !important;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ArticlesSection_mySwiperWrapper__vkjvR {
+    max-width: 1239px !important;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .ArticlesSection_mySwiperWrapper__vkjvR {
+    max-width: 1678px !important;
+  }
+}
+
+.ArticlesSection_mySwiperItem__6WVeq {
+  width: 280px;
+}
+@media only screen and (min-width: 768px) {
+  .ArticlesSection_mySwiperItem__6WVeq {
+    width: 334px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ArticlesSection_mySwiperItem__6WVeq {
+    width: 397px;
+  }
+}
+
+.ArticlesSection_pagination__yOwJz {
+  margin-top: 20px;
+  justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .ArticlesSection_pagination__yOwJz {
+    display: none;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/ContactFormSection/ContactForm/ContactForm.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.ContactForm_form__qx2B2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.ContactForm_form__qx2B2 :hover input, .ContactForm_form__qx2B2 :hover textarea {
+  background: #ededed;
+}
+.ContactForm_form__qx2B2 :focus input, .ContactForm_form__qx2B2 :focus textarea {
+  background: #fcfcfc;
+}
+.ContactForm_form__qx2B2 .ContactForm_send__zaQ5l {
+  position: absolute;
+  bottom: 50px;
+  animation: 1.5s linear ContactForm_send-slide__kML_N;
+  opacity: 0;
+  z-index: 5;
+}
+.ContactForm_form__qx2B2 .ContactForm_send__zaQ5l > svg {
+  display: block;
+  width: 50px;
+  height: 50px;
+  stroke: #1ba161;
+}
+
+.ContactForm_list__0wxbw {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+.ContactForm_list__0wxbw .ContactForm_error__mu4AF {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 16px;
+  color: #f94949;
+}
+@media only screen and (min-width: 768px) {
+  .ContactForm_list__0wxbw .ContactForm_error__mu4AF {
+    font-size: 20px;
+  }
+}
+.ContactForm_list__0wxbw .ContactForm_error__mu4AF.ContactForm__hide__Bi_x9 {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .ContactForm_list__0wxbw .ContactForm_error__mu4AF.ContactForm__hide__Bi_x9 {
+    display: block;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ContactForm_list__0wxbw {
+    margin-bottom: 32px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ContactForm_list__0wxbw {
+    margin-bottom: 40px;
+  }
+}
+
+@keyframes ContactForm_send-slide__kML_N {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-110vh) scale(2);
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/MainButton/mainbutton.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.mainbutton_btn_main__mguuL {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  position: relative;
+  overflow: hidden;
+  color: #fcfcfc;
+  padding: 10.5px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 2;
+  box-shadow: none;
+  border: none;
+}
+@media (any-hover: hover) {
+  .mainbutton_btn_main__mguuL {
+    transition: all 0.3s ease;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mainbutton_btn_main__mguuL {
+    padding: 14px 24px;
+  }
+}
+.mainbutton_btn_main__mguuL::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(160deg, #e37cc1 0%, #e231a8 36.5%, #9d2f79 76%, #851a62 100%);
+  box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.213), inset -3px -3px 3px rgba(88, 4, 70, 0.532);
+  transition: all 0.3s ease;
+}
+.mainbutton_btn_main__mguuL::before {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(130deg, #6c2276 0%, #682d78 32%, #643579 56%, #613b7a 75%, #5d447c 91%);
+  box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.213), inset -3px -3px 3px rgba(54, 4, 88, 0.532);
+  transition: all 0.3s ease;
+}
+@media (any-hover: hover) {
+  .mainbutton_btn_main__mguuL:hover::after {
+    opacity: 0;
+  }
+  .mainbutton_btn_main__mguuL:hover::before {
+    opacity: 1;
+  }
+}
+@media (hover: none) {
+  .mainbutton_btn_main__mguuL:active::after {
+    opacity: 0;
+  }
+  .mainbutton_btn_main__mguuL:active::before {
+    opacity: 1;
+  }
+}
+.mainbutton_btn_main__mguuL:disabled::after {
+  opacity: 0;
+}
+.mainbutton_btn_main__mguuL:disabled {
+  background: #9a9a9a;
+  color: #363636;
+  cursor: default;
+}
+.mainbutton_btn_main__mguuL:disabled::after {
+  opacity: 0;
+}
+.mainbutton_btn_main__mguuL:disabled::before {
+  opacity: 0;
+}
+
+.mainbutton_btn_modal__1MLVQ {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 28px;
+  height: 45px;
+  border: 1px solid #fcfcfc;
+  border-radius: 8px;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+@media only screen and (min-width: 768px) {
+  .mainbutton_btn_modal__1MLVQ {
+    height: 52px;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .mainbutton_btn_modal__1MLVQ {
+    height: 62px;
+    font-size: 20px;
+    padding: 0 32px;
+  }
+}
+.mainbutton_btn_modal__1MLVQ:hover, .mainbutton_btn_modal__1MLVQ:focus {
+  background: #ededed;
+  color: #030110;
+  border: 1px solid #ff62ce;
+  box-shadow: inset 1px 1px #ff62ce, inset -1px -1px #ff62ce;
+}
+.mainbutton_btn_modal__1MLVQ:disabled {
+  background: #9a9a9a;
+  color: #363636;
+  cursor: default;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/InputField/InputField.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.InputField_item__Q_8he {
+  width: clamp(280px, 84vw, 625px);
+  display: flex;
+  flex-direction: column;
+}
+.InputField_item__Q_8he > label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+}
+.InputField_item__Q_8he > label > span {
+  color: #f94949;
+}
+@media only screen and (min-width: 768px) {
+  .InputField_item__Q_8he > label {
+    font-size: 20px;
+  }
+}
+.InputField_item__Q_8he > input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  color: #030110;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 10px;
+  outline: 0;
+  background: #fcfcfc;
+  transition: all 0.3s ease;
+}
+.InputField_item__Q_8he > textarea {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  color: #030110;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 10px;
+  outline: 0;
+  background: #fcfcfc;
+  min-height: 132px;
+  resize: none;
+  transition: all 0.3s ease;
+}
+
+.InputField_input___Wj0m.InputField__error__s2LFM {
+  border: 2px solid #f94949;
+}
+
+.InputField_input___Wj0m.InputField__success__xAdGn {
+  border: 2px solid #1ba161;
+}
+
+.InputField_checkbox__IGOEu {
+  display: flex;
+  align-items: center;
+  max-height: 3vh;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/loader/Loader.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.Loader_wrapper__WjkT_ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 3;
+}
+.Loader_wrapper__WjkT_ .Loader_loader__uA4W4 {
+  color: #ff62ce;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: Loader_mulShdSpin__dn9nE 1s infinite linear;
+  transform: translateZ(0);
+}
+@media only screen and (min-width: 768px) {
+  .Loader_wrapper__WjkT_ .Loader_loader__uA4W4 {
+    font-size: 14px;
+  }
+}
+
+@keyframes Loader_mulShdSpin__dn9nE {
+  0%, 100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+  }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+  }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+  }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/ContactFormSection/ContactFormSection.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.ContactFormSection_section__F3_Zu {
+  padding: 16px 10px;
+}
+@media only screen and (min-width: 768px) {
+  .ContactFormSection_section__F3_Zu {
+    padding: 48px 10px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ContactFormSection_section__F3_Zu {
+    padding: 60px 10px;
+  }
+}
+.ContactFormSection_section__F3_Zu .ContactFormSection_wrapper__QvgIz {
+  width: clamp(300px, 90vw, 673px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 12px;
+  padding: 16px 10px;
+  margin: 0 auto;
+  box-shadow: inset 0 2px 16px 0 rgba(154, 149, 153, 0.6);
+  background: rgba(210, 210, 210, 0.5);
+}
+@media only screen and (min-width: 768px) {
+  .ContactFormSection_section__F3_Zu .ContactFormSection_wrapper__QvgIz {
+    padding: 24px;
+    gap: 32px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ContactFormSection_section__F3_Zu .ContactFormSection_wrapper__QvgIz {
+    gap: 40px;
+  }
+}
+.ContactFormSection_section__F3_Zu .ContactFormSection_wrapper__QvgIz > h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  font-weight: 600;
+  font-size: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .ContactFormSection_section__F3_Zu .ContactFormSection_wrapper__QvgIz > h2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .ContactFormSection_section__F3_Zu .ContactFormSection_wrapper__QvgIz > h2 {
+    font-size: 40px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/Counter/counter.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.counter_counter__Tx5dj {
+  padding: 32px 0;
+  background: linear-gradient(139deg, #db97c5 0%, #cc4fa3 16.91%, #a03a7e 39.6%, #6d2656 78.5%, #490735 100%);
+}
+@media (min-width: 510px) {
+  .counter_counter__Tx5dj {
+    padding: 88px 0;
+  }
+}
+@media (min-width: 768px) {
+  .counter_counter__Tx5dj {
+    padding: 65px 0;
+  }
+}
+
+.counter_container__jM90y {
+  max-width: 1680px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 32px;
+}
+@media (min-width: 510px) {
+  .counter_container__jM90y {
+    gap: 20px;
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .counter_container__jM90y {
+    padding: 0 40px !important;
+  }
+}
+
+.counter_item__PkBUg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .counter_item__PkBUg {
+    gap: 12px;
+  }
+}
+
+.counter_numbers__dRXZq {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 48px;
+}
+@media (min-width: 992px) {
+  .counter_numbers__dRXZq {
+    font-size: 56px;
+  }
+}
+
+.counter_title__Jjhe_ {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 20px;
+}
+@media (min-width: 992px) {
+  .counter_title__Jjhe_ {
+    font-size: 24px;
+  }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/FAQ/FAQ.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.FAQ_faq__5vClH {
+  padding: 60px 0;
+}
+
+.FAQ_title__AdcV_ {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 26px;
+}
+@media (min-width: 480px) {
+  .FAQ_title__AdcV_ {
+    font-size: 32px;
+  }
+}
+@media (min-width: 768px) {
+  .FAQ_title__AdcV_ {
+    font-size: 40px;
+  }
+}
+
+.FAQ_container__9jtEw {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+@media (min-width: 480px) {
+  .FAQ_container__9jtEw {
+    gap: 32px;
+  }
+}
+@media (min-width: 768px) {
+  .FAQ_container__9jtEw {
+    gap: 56px;
+  }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/FAQ/FAQItem/FAQItem.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.FAQItem_faqItem__q0tNj {
+  position: relative;
+  overflow: hidden;
+}
+.FAQItem_faqItem__q0tNj::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(139deg, #db97c5 0%, #cc4fa3 16.91%, #a03a7e 39.6%, #6d2656 78.5%, #490735 100%);
+}
+
+.FAQItem_titleRow__BKR5I {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 16px 10px;
+  cursor: pointer;
+}
+@media (any-hover: none) {
+  .FAQItem_titleRow__BKR5I {
+    cursor: default;
+  }
+}
+@media (min-width: 480px) {
+  .FAQItem_titleRow__BKR5I {
+    gap: 20px;
+  }
+}
+@media (any-hover: hover) {
+  .FAQItem_titleRow__BKR5I:hover button > span {
+    background-color: #c0a4b7;
+  }
+  .FAQItem_titleRow__BKR5I:hover h3 {
+    color: #c0a4b7;
+  }
+}
+
+.FAQItem_title__gbMPG {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 700;
+  transition: color 0.3s ease 0s;
+}
+@media (min-width: 480px) {
+  .FAQItem_title__gbMPG {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .FAQItem_title__gbMPG {
+    font-size: 22px;
+  }
+}
+
+.FAQItem_plus__WbY3x {
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  flex-shrink: 0;
+}
+.FAQItem_plus__WbY3x > span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.FAQItem_plus__WbY3x > span:first-child {
+  transform: rotate(-90deg) translateX(-3px);
+}
+
+.FAQItem_plusActive__vmTLv > span:first-child {
+  transform: rotate(0) translate(0, 3px);
+}
+
+.FAQItem_desc__XDleG {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  font-weight: 400;
+  padding: 10px;
+  font-size: 16px;
+}
+@media (min-width: 480px) {
+  .FAQItem_desc__XDleG {
+    font-size: 18px;
+  }
+}
+
+.FAQItem_descWrapper__VAcRR {
+  max-height: 0;
+  transition: max-height 0.3s ease 0s;
+}
+
+.FAQItem_link__WuOte {
+  color: #ff62ce !important;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+@media (any-hover: hover) {
+  .FAQItem_link__WuOte:hover {
+    color: #c0a4b7 !important;
+    border-bottom: 1px solid #ff62ce;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/HeroSection/HeroSection.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.HeroSection_section__cEnQg {
+  margin-top: 80px;
+  position: relative;
+}
+.HeroSection_section__cEnQg .HeroSection_buttons__KEE_k {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
+  padding: 0 3.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 3;
+}
+@media (max-width: 992px) {
+  .HeroSection_section__cEnQg .HeroSection_buttons__KEE_k {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .HeroSection_section__cEnQg .HeroSection_buttons__KEE_k {
+    padding: 0 6.25%;
+  }
+}
+.HeroSection_section__cEnQg .HeroSection_pagination__jE4ZG {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 3;
+  gap: 8px;
+}
+@media only screen and (min-width: 768px) {
+  .HeroSection_section__cEnQg .HeroSection_pagination__jE4ZG {
+    gap: 16px;
+    bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .HeroSection_section__cEnQg .HeroSection_pagination__jE4ZG {
+    bottom: 12%;
+  }
+}
+
+.HeroSection_prevEl__KK77Y {
+  transform: rotate(180deg);
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/HeroCard/HeroCard.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.HeroCard_card__AEttk {
+  position: relative;
+  overflow: hidden;
+  height: clamp(450px, 80vh, 860px);
+}
+@media (min-width: 410px) {
+  .HeroCard_card__AEttk {
+    height: clamp(550px, 86vh, 860px);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .HeroCard_card__AEttk {
+    height: clamp(500px, 90vh, 860px);
+  }
+}
+
+.HeroCard_image__DMOFa {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: right;
+  filter: brightness(30%);
+}
+@media (min-width: 992px) {
+  .HeroCard_image__DMOFa {
+    object-position: center;
+  }
+}
+
+.HeroCard_wrapper__3sHJv {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 3px;
+  gap: 16px;
+}
+@media (min-width: 410px) {
+  .HeroCard_wrapper__3sHJv {
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .HeroCard_wrapper__3sHJv {
+    padding-bottom: 50px;
+    gap: 24px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .HeroCard_wrapper__3sHJv {
+    padding-bottom: 5%;
+    gap: 40px;
+  }
+}
+.HeroCard_wrapper__3sHJv h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  font-weight: 700;
+  font-size: 34px;
+  padding: 0 5px;
+}
+@media (min-width: 410px) {
+  .HeroCard_wrapper__3sHJv h2 {
+    font-size: 36px;
+  }
+}
+@media (min-width: 420px) {
+  .HeroCard_wrapper__3sHJv h2 {
+    font-size: 38px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .HeroCard_wrapper__3sHJv h2 {
+    font-size: 48px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .HeroCard_wrapper__3sHJv h2 {
+    font-size: 54px;
+  }
+}
+.HeroCard_wrapper__3sHJv p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  line-height: 150%;
+  font-size: 18px;
+  width: clamp(280px, 95%, 830px);
+}
+@media (min-width: 410px) {
+  .HeroCard_wrapper__3sHJv p {
+    font-size: 22px;
+  }
+}
+@media (min-width: 420px) {
+  .HeroCard_wrapper__3sHJv p {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .HeroCard_wrapper__3sHJv p {
+    font-size: 28px;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/HistorySection/HistorySection.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.HistorySection_history__GHF7A {
+  padding: 72px 0px;
+}
+
+.HistorySection_title__xmS57 {
+  text-align: center;
+  margin-bottom: 56px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+}
+@media (max-width: 768px) {
+  .HistorySection_title__xmS57 {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 420px) {
+  .HistorySection_title__xmS57 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+}
+
+.HistorySection_container__E8CzM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1024px;
+}
+
+.HistorySection_text__NyhYX {
+  max-width: 566px;
+  padding: 20px;
+  border: 1px solid #ff62ce;
+  border-radius: 16px;
+  background-color: #180530;
+  text-align: center;
+  margin-bottom: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+}
+@media (max-width: 768px) {
+  .HistorySection_text__NyhYX {
+    font-size: 18px;
+  }
+}
+@media (max-width: 420px) {
+  .HistorySection_text__NyhYX {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/HistorySection/Timeline/timeline.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.timeline_wrapper__b7xbQ {
+  padding-top: 50px;
+}
+
+.timeline_timeline__fRura {
+  position: relative;
+}
+
+.timeline_timeline__initial__xWUP_ {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  transform: translateX(-50%);
+  width: 2px;
+  background-color: #9a9a9a;
+}
+@media (min-width: 480px) {
+  .timeline_timeline__initial__xWUP_ {
+    top: 6px;
+    left: 12px;
+  }
+}
+@media (min-width: 571px) {
+  .timeline_timeline__initial__xWUP_ {
+    left: 50%;
+  }
+}
+
+.timeline_timeline__draw__IHf24 {
+  width: 100%;
+  background: linear-gradient(139deg, #db97c5 0%, #cc4fa3 16.91%, #a03a7e 39.6%, #6d2656 78.5%, #490735 100%);
+  height: 100%;
+  transform-origin: top;
+}
+
+.timeline_timeline__list__tU_Zo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: min-content;
+  grid-column-gap: 88px;
+  column-gap: 88px;
+  grid-row-gap: 92px;
+  row-gap: 92px;
+}
+@media (max-width: 768px) {
+  .timeline_timeline__list__tU_Zo {
+    column-gap: 72px;
+  }
+}
+@media (max-width: 570px) {
+  .timeline_timeline__list__tU_Zo {
+    grid-template-columns: 1fr;
+    column-gap: 60px;
+  }
+}
+.timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua {
+  position: relative;
+  width: 100%;
+}
+@media (max-width: 570px) {
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua {
+    padding-left: 40px;
+  }
+}
+.timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #9a9a9a;
+  transition: background-color 0.3s ease 0s, box-shadow 0.3s ease 0s;
+}
+@media (min-width: 480px) {
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua::before {
+    top: 6px;
+    width: 24px;
+    height: 24px;
+  }
+}
+@media (min-width: 571px) {
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua:nth-child(odd) {
+    grid-column: 1;
+  }
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua:nth-child(odd)::before {
+    right: -32px;
+    transform: translateX(100%);
+  }
+}
+@media (min-width: 571px) and (max-width: 768px) {
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua:nth-child(odd)::before {
+    right: -24px;
+  }
+}
+@media (min-width: 571px) {
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua:nth-child(even) {
+    grid-column: 2;
+  }
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua:nth-child(even)::before {
+    left: -32px;
+    transform: translateX(-100%);
+  }
+}
+@media (min-width: 571px) and (max-width: 768px) {
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua:nth-child(even)::before {
+    left: -24px;
+  }
+}
+@media (max-width: 570px) {
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua::before {
+    left: 0;
+  }
+}
+.timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua .timeline_title__8JJXl {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  line-height: 150%;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  opacity: 0.3;
+  padding-left: 24px;
+  position: relative;
+  transition: opacity 0.3s ease 0s;
+}
+.timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua .timeline_title__8JJXl::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 1px;
+  background: linear-gradient(to right, #e37cc1 0%, #e231a8 100%);
+}
+@media (min-width: 480px) {
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua .timeline_title__8JJXl {
+    font-size: 24px;
+  }
+}
+.timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua .timeline_text__fkhei {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+  padding-left: 24px;
+  opacity: 0.3;
+  color: #fcfcfc;
+  transition: opacity 0.3s ease 0s;
+}
+@media (min-width: 480px) {
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua .timeline_text__fkhei {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua .timeline_text__fkhei {
+    font-size: 20px;
+  }
+}
+.timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua.timeline_active__QHS6Q .timeline_title__8JJXl {
+  opacity: 1;
+}
+.timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua.timeline_active__QHS6Q .timeline_text__fkhei {
+  opacity: 1;
+}
+.timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua.timeline_active__QHS6Q::before {
+  background-color: #ff62ce;
+  box-shadow: 0 0 20px rgba(255, 98, 206, 0.9);
+}
+.timeline_timeline__list__tU_Zo .timeline_timeline__list__element__bYrua.timeline_active__QHS6Q {
+  opacity: 1;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/MentorSection/MentorSection.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.MentorSection_mentor__omZyj {
+  padding: 32px 16px;
+}
+@media only screen and (min-width: 768px) {
+  .MentorSection_mentor__omZyj {
+    padding: 60px 40px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .MentorSection_mentor__omZyj {
+    padding: 72px 40px;
+  }
+}
+.MentorSection_mentor__omZyj .MentorSection_title__207lO {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: normal;
+}
+@media only screen and (min-width: 768px) {
+  .MentorSection_mentor__omZyj .MentorSection_title__207lO {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1280px) {
+  .MentorSection_mentor__omZyj .MentorSection_title__207lO {
+    font-size: 40px;
+    margin-bottom: 48px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .MentorSection_mentor__omZyj .MentorSection_title__207lO {
+    margin-bottom: 56px;
+  }
+}
+.MentorSection_mentor__omZyj .MentorSection_container__Nw4rU {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_wrapper__AoXQ1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1280px) {
+  .MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_wrapper__AoXQ1 {
+    flex-direction: row;
+    align-items: end;
+    margin-bottom: 48px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_wrapper__AoXQ1 {
+    margin-bottom: 56px;
+  }
+}
+.MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_text___7YC_ {
+  box-shadow: inset 0 2px 20px 0 rgba(114, 109, 113, 0.6);
+  background: rgba(210, 210, 210, 0.5);
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 607px;
+  margin-bottom: 5px;
+  position: relative;
+  transform: translateY(-3.5vw);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-weight: 400;
+  font-size: 14px;
+  z-index: 3;
+}
+@media (min-width: 660px) {
+  .MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_text___7YC_ {
+    transform: translateY(-23px);
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_text___7YC_ {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1280px) {
+  .MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_text___7YC_ {
+    transform: translateX(15px);
+    margin-bottom: 63px;
+  }
+}
+.MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_text___7YC_ .MentorSection_text_mb__c_XPk {
+  margin-bottom: 21px;
+}
+@media only screen and (min-width: 768px) {
+  .MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_text___7YC_ .MentorSection_text_mb__c_XPk {
+    margin-bottom: 30px;
+  }
+}
+.MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_wrapper_img__uYHr5 {
+  position: relative;
+  width: clamp(288px, 92vw, 573px);
+  height: clamp(282px, 87vw, 550px);
+  transform: translateY(4vw);
+  flex-shrink: 0;
+}
+@media (min-width: 660px) {
+  .MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_wrapper_img__uYHr5 {
+    transform: translateY(23px);
+  }
+}
+@media (min-width: 1280px) {
+  .MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_wrapper_img__uYHr5 {
+    transform: translateX(-15px);
+  }
+}
+.MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_wrapper_img__uYHr5 .MentorSection_image__gB6oy {
+  display: none;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_wrapper_img__uYHr5 .MentorSection_image_mobile__cD0Lt {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+@media (min-width: 1280px) {
+  .MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_wrapper_img__uYHr5 .MentorSection_image__gB6oy {
+    display: block;
+  }
+  .MentorSection_mentor__omZyj .MentorSection_container__Nw4rU .MentorSection_wrapper_img__uYHr5 .MentorSection_image_mobile__cD0Lt {
+    display: none;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/modals/RegistrationFormModal/RegistrationFormModal.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.RegistrationFormModal_wrapper__bgALB {
+  padding: 16px 16px 80px 16px;
+  margin: auto;
+}
+@media only screen and (min-width: 768px) {
+  .RegistrationFormModal_wrapper__bgALB {
+    padding: 40px 16px 80px 16px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .RegistrationFormModal_wrapper__bgALB {
+    padding: 10vh 16px;
+  }
+}
+.RegistrationFormModal_wrapper__bgALB .RegistrationFormModal_modal__QIFW8 {
+  background: #180530;
+  padding: 44px 8px 24px 8px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ff62ce;
+  position: relative;
+  max-width: 689px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media only screen and (min-width: 768px) {
+  .RegistrationFormModal_wrapper__bgALB .RegistrationFormModal_modal__QIFW8 {
+    padding: 48px 32px 32px 32px;
+  }
+}
+.RegistrationFormModal_wrapper__bgALB .RegistrationFormModal_modal__QIFW8 .RegistrationFormModal_closeButton__Wn1pT {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  top: 10px;
+  right: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .RegistrationFormModal_wrapper__bgALB .RegistrationFormModal_modal__QIFW8 .RegistrationFormModal_closeButton__Wn1pT {
+    top: 30px;
+    right: 18px;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/CloseBtn/CloseBtn.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.CloseBtn_btn__ij9AH {
+  transition: all 0.3s ease;
+}
+.CloseBtn_btn__ij9AH svg {
+  display: block;
+  width: 28px;
+  height: 28px;
+}
+@media only screen and (min-width: 768px) {
+  .CloseBtn_btn__ij9AH svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (any-hover: hover) {
+  .CloseBtn_btn__ij9AH:hover {
+    opacity: 0.7;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/modals/RegistrationFormModal/FormMentor/FormMentor.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.FormMentor_form_mtntor__8pXxo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .FormMentor_form_mtntor__8pXxo {
+    gap: 40px;
+  }
+}
+.FormMentor_form_mtntor__8pXxo h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  line-height: 150%;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .FormMentor_form_mtntor__8pXxo h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    line-height: 150%;
+  }
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 {
+    gap: 24px;
+  }
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ {
+  width: clamp(280px, 84vw, 625px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ > label {
+  font-size: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ > label {
+    font-size: 20px;
+  }
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ > h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ > h4 > span {
+  color: #f94949;
+}
+@media only screen and (min-width: 768px) {
+  .FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ > h4 {
+    font-size: 20px;
+  }
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_select___Ylls {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 12px;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+@media only screen and (min-width: 768px) {
+  .FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_select___Ylls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  .FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_select___Ylls .FormMentor_time1__5ityj {
+    order: 1;
+  }
+  .FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_select___Ylls .FormMentor_time2__YcYJp {
+    order: 3;
+  }
+  .FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_select___Ylls .FormMentor_time3__gx4hb {
+    order: 2;
+  }
+  .FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_select___Ylls .FormMentor_time4__toe07 {
+    order: 4;
+  }
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_btn_option__55DLP {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  font-weight: 600;
+  font-size: 18px;
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_btn_option__55DLP.FormMentor_agree__4i9WO {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 16px;
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_btn_option__55DLP input {
+  display: none;
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_btn_option__55DLP .FormMentor_check__dndiz {
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+  border: 1px solid #9a9a9a;
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_btn_option__55DLP .FormMentor_check__dndiz svg {
+  opacity: 0;
+  display: block;
+  border-radius: 2px;
+  width: 24px;
+  height: 24px;
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_btn_option__55DLP .FormMentor_check__dndiz.FormMentor__active__L6Kia {
+  border: none;
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_item__RSNi_ .FormMentor_btn_option__55DLP .FormMentor_check__dndiz.FormMentor__active__L6Kia svg {
+  opacity: 1;
+}
+.FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_error_modal__w_0cH {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+  color: #f94949;
+}
+@media only screen and (min-width: 768px) {
+  .FormMentor_form_mtntor__8pXxo .FormMentor_list__I23u5 .FormMentor_error_modal__w_0cH {
+    font-size: 20px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/modals/RegistrationFormModal/FormPartaker/FormPartaker.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.FormPartaker_form_partaker__XWtxm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .FormPartaker_form_partaker__XWtxm {
+    gap: 40px;
+  }
+}
+.FormPartaker_form_partaker__XWtxm h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  line-height: 150%;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .FormPartaker_form_partaker__XWtxm h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    line-height: 150%;
+  }
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ {
+    gap: 24px;
+  }
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 {
+  width: clamp(280px, 84vw, 625px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 > label {
+  font-size: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 > label {
+    font-size: 20px;
+  }
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 > h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 > h4 > span {
+  color: #f94949;
+}
+@media only screen and (min-width: 768px) {
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 > h4 {
+    font-size: 20px;
+  }
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_select__xdavI {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 12px;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+@media only screen and (min-width: 768px) {
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_select__xdavI {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_select__xdavI .FormPartaker_time1__xz4IJ {
+    order: 1;
+  }
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_select__xdavI .FormPartaker_time2__ZjiWT {
+    order: 3;
+  }
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_select__xdavI .FormPartaker_time3__apxph {
+    order: 2;
+  }
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_select__xdavI .FormPartaker_time4__Fwddc {
+    order: 4;
+  }
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_select_column__T2nOS {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+@media only screen and (min-width: 768px) {
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_select_column__T2nOS {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_linck__xKZLQ {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fcfcfc;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  text-align: start;
+}
+@media (any-hover: hover) {
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_linck__xKZLQ:hover {
+    color: #c0a4b7;
+  }
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_btn_option__tJ_uw {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  font-weight: 600;
+  font-size: 18px;
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_btn_option__tJ_uw.FormPartaker_agree__jh6k3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 16px;
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_btn_option__tJ_uw input {
+  display: none;
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_btn_option__tJ_uw .FormPartaker_check__a5l9L {
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+  border: 1px solid #9a9a9a;
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_btn_option__tJ_uw .FormPartaker_check__a5l9L svg {
+  opacity: 0;
+  display: block;
+  border-radius: 2px;
+  width: 24px;
+  height: 24px;
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_btn_option__tJ_uw .FormPartaker_check__a5l9L.FormPartaker__active__xWgp8 {
+  border: none;
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_list__ut_u_ .FormPartaker_item__jmf52 .FormPartaker_btn_option__tJ_uw .FormPartaker_check__a5l9L.FormPartaker__active__xWgp8 svg {
+  opacity: 1;
+}
+.FormPartaker_form_partaker__XWtxm .FormPartaker_error_partaker__OuZgM {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+  color: #f94949;
+}
+@media only screen and (min-width: 768px) {
+  .FormPartaker_form_partaker__XWtxm .FormPartaker_error_partaker__OuZgM {
+    font-size: 20px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/PartnerCard/PartnerCard.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.PartnerCard_partnerCardItem__Yga3n {
+  border-radius: 8px;
+  padding: 10px;
+  width: 95vw;
+  max-height: 230px;
+  height: 40vw;
+  background-color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  transition: all 0.8s;
+  filter: blur(3px) brightness(40%);
+}
+@media (any-hover: hover) {
+  .PartnerCard_partnerCardItem__Yga3n:hover {
+    transform: scale(1.02);
+  }
+}
+.PartnerCard_partnerCardItem__Yga3n.PartnerCard__active__PrVry {
+  opacity: 1;
+  filter: none;
+}
+@media only screen and (min-width: 768px) {
+  .PartnerCard_partnerCardItem__Yga3n.PartnerCard__active__PrVry {
+    transform: translateX(-10px);
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .PartnerCard_partnerCardItem__Yga3n.PartnerCard__active__PrVry {
+    transform: translateX(-30px);
+  }
+}
+.PartnerCard_partnerCardItem__Yga3n.PartnerCard__disabled__zEKV1 {
+  cursor: default;
+  -moz-pointer-events: none;
+  -webkit-pointer-events: none;
+  -ms-pointer-events: none;
+  pointer-events: none;
+  transform: translateX(-30px);
+}
+@media only screen and (min-width: 1920px) {
+  .PartnerCard_partnerCardItem__Yga3n.PartnerCard__disabled__zEKV1 {
+    display: flex;
+    transform: translateX(-20px);
+  }
+}
+.PartnerCard_partnerCardItem__Yga3n .PartnerCard_img_wrap__qLB5Y {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.PartnerCard_partnerCardItem__Yga3n .PartnerCard_img_wrap__qLB5Y .PartnerCard_img__2Rnn1 {
+  object-fit: contain;
+  object-position: center;
+}
+@media only screen and (min-width: 768px) {
+  .PartnerCard_partnerCardItem__Yga3n {
+    width: 50vw;
+    height: 230px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .PartnerCard_partnerCardItem__Yga3n {
+    width: 470px;
+    height: 230px;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/PartnerSection/PartnerSection.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.PartnerSection_section__lGe2o {
+  background-image: linear-gradient(139deg, #db97c5 0%, #cc4fa3 16.91%, #a03a7e 39.6%, #6d2656 78.5%, #490735 100%);
+  color: #fcfcfc;
+  width: 100%;
+  padding: 32px 16px;
+}
+@media only screen and (min-width: 768px) {
+  .PartnerSection_section__lGe2o {
+    padding: 48px 16px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .PartnerSection_section__lGe2o {
+    padding: 60px 16px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .PartnerSection_section__lGe2o {
+    padding: 72px 16px;
+  }
+}
+
+.PartnerSection_container__Zei1q {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .PartnerSection_container__Zei1q {
+    gap: 32px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .PartnerSection_container__Zei1q {
+    gap: 48px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .PartnerSection_container__Zei1q {
+    gap: 56px;
+  }
+}
+
+.PartnerSection_title__qs8QX {
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  line-height: 150%;
+}
+@media only screen and (min-width: 768px) {
+  .PartnerSection_title__qs8QX {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    line-height: 150%;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .PartnerSection_title__qs8QX {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    line-height: 150%;
+  }
+}
+
+.PartnerSection_sliderContainer__8LWdY {
+  width: 95vw;
+}
+@media only screen and (min-width: 768px) {
+  .PartnerSection_sliderContainer__8LWdY {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .PartnerSection_sliderContainer__8LWdY {
+    max-width: 1238px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .PartnerSection_sliderContainer__8LWdY {
+    max-width: 1920px;
+  }
+}
+
+.PartnerSection_titleRow__5_Pfp {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 320px;
+}
+@media only screen and (min-width: 768px) {
+  .PartnerSection_titleRow__5_Pfp {
+    width: 688px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .PartnerSection_titleRow__5_Pfp {
+    position: relative;
+    padding: 10px 0px;
+    width: 1236px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .PartnerSection_titleRow__5_Pfp {
+    width: 1320px;
+  }
+}
+
+.PartnerSection_prevBtn__wP6ar {
+  transform: rotate(180deg);
+}
+
+.PartnerSection_navigation__nEeza {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .PartnerSection_navigation__nEeza {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    gap: 32px;
+    gap: 16px;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/shared/FeedbackCard/FeedbackCard.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.FeedbackCard_card__0XgGx {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 10px 16px;
+  flex-direction: column;
+}
+@media (min-width: 421px) {
+  .FeedbackCard_card__0XgGx {
+    align-items: center;
+    padding: 25px 0;
+  }
+}
+@media (min-width: 609px) {
+  .FeedbackCard_card__0XgGx {
+    gap: 167px;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 25px 14px;
+  }
+}
+@media (min-width: 1367px) {
+  .FeedbackCard_card__0XgGx {
+    gap: 189px;
+    padding: 12px 0;
+  }
+}
+
+.FeedbackCard_person__2aT5a {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.FeedbackCard_imageContainer__dMahI {
+  position: relative;
+  width: 173px;
+  height: 173px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.FeedbackCard_imageContainer__dMahI > img {
+  object-fit: cover;
+}
+
+.FeedbackCard_profile__32HXR {
+  position: absolute;
+  left: 144px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  background: rgba(210, 210, 210, 0.5);
+  text-align: left;
+  top: 39px;
+}
+@media (min-width: 421px) {
+  .FeedbackCard_profile__32HXR {
+    top: -25px;
+  }
+}
+@media (min-width: 1367px) {
+  .FeedbackCard_profile__32HXR {
+    top: 0px;
+  }
+}
+
+.FeedbackCard_personInfo__hgESZ {
+  white-space: nowrap;
+  margin-bottom: 8px;
+}
+
+.FeedbackCard_name__YPBuy {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #030110;
+}
+
+.FeedbackCard_role__arUcT {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #030110;
+}
+
+.FeedbackCard_date__KBBLk {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #363636;
+}
+
+.FeedbackCard_text__KSXvw {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fcfcfc;
+  max-width: 600px;
+  text-align: left;
+  padding: 0;
+}
+@media (min-width: 421px) {
+  .FeedbackCard_text__KSXvw {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 609px) {
+  .FeedbackCard_text__KSXvw {
+    padding: 10px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 1367px) {
+  .FeedbackCard_text__KSXvw {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 10px 50px;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/ReviewsSection/ReviewsSection.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.ReviewsSection_section__d_u2c {
+  background-image: linear-gradient(139deg, #db97c5 0%, #cc4fa3 16.91%, #a03a7e 39.6%, #6d2656 78.5%, #490735 100%);
+  color: #fcfcfc;
+  padding: 60px 0;
+}
+
+.ReviewsSection_container__47aYt {
+  text-align: center;
+}
+
+.ReviewsSection_title__KkQLg {
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  line-height: 150%;
+}
+@media (min-width: 421px) {
+  .ReviewsSection_title__KkQLg {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    line-height: 150%;
+  }
+}
+@media (min-width: 1367px) {
+  .ReviewsSection_title__KkQLg {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    line-height: 150%;
+  }
+}
+
+.ReviewsSection_sliderContainer__l__jD {
+  padding-bottom: 48px;
+}
+
+.ReviewsSection_titleRow__iMord {
+  position: relative;
+  margin-bottom: 33px;
+}
+@media (min-width: 1367px) {
+  .ReviewsSection_titleRow__iMord {
+    margin-bottom: 48px;
+  }
+}
+
+.ReviewsSection_prevBtn__YHd12 {
+  transform: rotate(180deg);
+}
+
+.ReviewsSection_navigation__idKGi {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  gap: 32px;
+}
+@media (min-width: 609px) {
+  .ReviewsSection_navigation__idKGi {
+    display: flex;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/StructureSection/StructureCard/StructureCard.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.StructureCard_cardStyle__PpwHb {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 288px;
+  max-width: 720px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-bottom: 1px solid #2e0535;
+  padding: 0px 0px 8px 0px;
+}
+.StructureCard_cardStyle__PpwHb .StructureCard_ellipseWrapper__lq2HI {
+  width: 70%;
+  height: 80%;
+  position: absolute;
+  background-color: rgba(226, 185, 213, 0);
+  border-radius: 100%;
+  fill: #e2b9d5;
+  filter: blur(30px);
+}
+.StructureCard_cardStyle__PpwHb .StructureCard_cardWrapper__Ux_dx {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.StructureCard_cardStyle__PpwHb .StructureCard_svgWrapper__CfHTD {
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .StructureCard_cardStyle__PpwHb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 720px;
+    max-width: 1236px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .StructureCard_cardStyle__PpwHb .StructureCard_ellipseWrapper__lq2HI {
+    width: 100%;
+    height: 100%;
+  }
+  .StructureCard_cardStyle__PpwHb .StructureCard_cardWrapper__Ux_dx {
+    min-width: 300px;
+    max-width: 400px;
+    max-height: 189px;
+  }
+  .StructureCard_cardStyle__PpwHb .StructureCard_svgWrapper__CfHTD {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .StructureCard_cardStyle__PpwHb {
+    padding: 0px 32px 8px 48px;
+    min-width: 1236px;
+    max-width: 1320px;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    gap: 48px;
+  }
+  .StructureCard_cardStyle__PpwHb .StructureCard_ellipseWrapper__lq2HI {
+    min-width: 300px;
+    height: 157px;
+    position: absolute;
+    background-color: rgba(226, 185, 213, 0);
+    border-radius: 100%;
+    fill: #e2b9d5;
+    filter: blur(30px);
+  }
+  .StructureCard_cardStyle__PpwHb .StructureCard_svgWrapper__CfHTD {
+    position: relative;
+  }
+  .StructureCard_cardStyle__PpwHb .StructureCard_cardWrapper__Ux_dx {
+    min-width: 400px;
+    height: 157px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .StructureCard_cardStyle__PpwHb {
+    min-width: 1320px;
+    width: 100%;
+  }
+}
+
+.StructureCard_textCard__TfTf0 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 288px;
+  max-width: 1920px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+@media only screen and (min-width: 768px) {
+  .StructureCard_textCard__TfTf0 {
+    min-width: 397px;
+    gap: 12px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .StructureCard_textCard__TfTf0 {
+    gap: 12px;
+    min-width: 712px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .StructureCard_textCard__TfTf0 {
+    gap: 12px;
+    min-width: 800px;
+  }
+}
+
+.StructureCard_header__NM0cU {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #fcfcfc;
+}
+@media only screen and (min-width: 768px) {
+  .StructureCard_header__NM0cU {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .StructureCard_header__NM0cU {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .StructureCard_header__NM0cU {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+}
+
+.StructureCard_text__Rkd58 {
+  color: #fcfcfc;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 768px) {
+  .StructureCard_text__Rkd58 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .StructureCard_text__Rkd58 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+
+.StructureCard_cardStyle__PpwHb:nth-child(odd) .StructureCard_ellipseWrapper__lq2HI {
+  background-color: rgb(226, 185, 213);
+  fill: #e2b9d5;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/StructureSection/StructureSection.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
+.StructureSection_mainContainer__YCO4E {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 32px 20px;
+  min-width: 320px;
+  max-width: 768px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: linear-gradient(139deg, #db97c5 0%, #cc4fa3 16.91%, #a03a7e 39.6%, #6d2656 78.5%, #490735 100%);
+}
+@media only screen and (min-width: 768px) {
+  .StructureSection_mainContainer__YCO4E {
+    gap: 32px;
+    padding: 48px 24px;
+    min-width: 768px;
+    max-width: 1366px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .StructureSection_mainContainer__YCO4E {
+    min-width: 1366px;
+    max-width: 1920px;
+    padding: 60px 64px;
+    gap: 48px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .StructureSection_mainContainer__YCO4E {
+    gap: 56px;
+    padding: 72px 120px;
+    min-width: 1920px;
+    max-width: 100%;
+  }
+}
+
+.StructureSection_cardContainer__koiyv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  min-width: 288px;
+  max-width: 668px;
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 24px;
+  padding: 0 20px;
+}
+@media only screen and (min-width: 768px) {
+  .StructureSection_cardContainer__koiyv {
+    min-width: 668px;
+    max-width: 1138px;
+    padding: 0 15px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .StructureSection_cardContainer__koiyv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-width: 1138px;
+    max-width: 1320px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .StructureSection_cardContainer__koiyv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 1320px;
+    max-width: 100%;
+  }
+}
+
+.StructureSection_title__32CES {
+  text-align: center;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  line-height: 150%;
+  color: #fcfcfc;
+}
+@media only screen and (min-width: 768px) {
+  .StructureSection_title__32CES {
+    font-size: 32px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .StructureSection_title__32CES {
+    font-size: 40px;
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/swiper/swiper.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * Swiper 11.1.3
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * https://swiperjs.com
+ *
+ * Copyright 2014-2024 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: May 13, 2024
+ */
+
+/* FONT_START */
+@font-face {
+  font-family: 'swiper-icons';
+  src: url('data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA');
+  font-weight: 400;
+  font-style: normal;
+}
+/* FONT_END */
+:root {
+  --swiper-theme-color: #007aff;
+  /*
+  --swiper-preloader-color: var(--swiper-theme-color);
+  --swiper-wrapper-transition-timing-function: initial;
+  */
+}
+:host {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+  display: block;
+}
+.swiper-vertical > .swiper-wrapper {
+  flex-direction: column;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+  box-sizing: content-box;
+}
+.swiper-android .swiper-slide,
+.swiper-ios .swiper-slide,
+.swiper-wrapper {
+  transform: translate3d(0px, 0, 0);
+}
+.swiper-horizontal {
+  touch-action: pan-y;
+}
+.swiper-vertical {
+  touch-action: pan-x;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  display: block;
+}
+.swiper-slide-invisible-blank {
+  visibility: hidden;
+}
+/* Auto Height */
+.swiper-autoheight,
+.swiper-autoheight .swiper-slide {
+  height: auto;
+}
+.swiper-autoheight .swiper-wrapper {
+  align-items: flex-start;
+  transition-property: transform, height;
+}
+.swiper-backface-hidden .swiper-slide {
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+/* 3D Effects */
+.swiper-3d.swiper-css-mode .swiper-wrapper {
+  perspective: 1200px;
+}
+.swiper-3d .swiper-wrapper {
+  transform-style: preserve-3d;
+}
+.swiper-3d {
+  perspective: 1200px;
+}
+.swiper-3d .swiper-slide,
+.swiper-3d .swiper-cube-shadow {
+  transform-style: preserve-3d;
+}
+/* CSS Mode */
+.swiper-css-mode > .swiper-wrapper {
+  overflow: auto;
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer and Edge */
+}
+.swiper-css-mode > .swiper-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.swiper-css-mode > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: start start;
+}
+.swiper-css-mode.swiper-horizontal > .swiper-wrapper {
+  scroll-snap-type: x mandatory;
+}
+.swiper-css-mode.swiper-vertical > .swiper-wrapper {
+  scroll-snap-type: y mandatory;
+}
+.swiper-css-mode.swiper-free-mode > .swiper-wrapper {
+  scroll-snap-type: none;
+}
+.swiper-css-mode.swiper-free-mode > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: none;
+}
+.swiper-css-mode.swiper-centered > .swiper-wrapper::before {
+  content: '';
+  flex-shrink: 0;
+  order: 9999;
+}
+.swiper-css-mode.swiper-centered > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: center center;
+  scroll-snap-stop: always;
+}
+.swiper-css-mode.swiper-centered.swiper-horizontal > .swiper-wrapper > .swiper-slide:first-child {
+  -webkit-margin-start: var(--swiper-centered-offset-before);
+          margin-inline-start: var(--swiper-centered-offset-before);
+}
+.swiper-css-mode.swiper-centered.swiper-horizontal > .swiper-wrapper::before {
+  height: 100%;
+  min-height: 1px;
+  width: var(--swiper-centered-offset-after);
+}
+.swiper-css-mode.swiper-centered.swiper-vertical > .swiper-wrapper > .swiper-slide:first-child {
+  -webkit-margin-before: var(--swiper-centered-offset-before);
+          margin-block-start: var(--swiper-centered-offset-before);
+}
+.swiper-css-mode.swiper-centered.swiper-vertical > .swiper-wrapper::before {
+  width: 100%;
+  min-width: 1px;
+  height: var(--swiper-centered-offset-after);
+}
+/* Slide styles start */
+/* 3D Shadows */
+.swiper-3d .swiper-slide-shadow,
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-top,
+.swiper-3d .swiper-slide-shadow-bottom,
+.swiper-3d .swiper-slide-shadow,
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-top,
+.swiper-3d .swiper-slide-shadow-bottom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+.swiper-3d .swiper-slide-shadow {
+  background: rgba(0, 0, 0, 0.15);
+}
+.swiper-3d .swiper-slide-shadow-left {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-3d .swiper-slide-shadow-top {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-3d .swiper-slide-shadow-bottom {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-lazy-preloader {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -21px;
+  margin-top: -21px;
+  z-index: 10;
+  transform-origin: 50%;
+  box-sizing: border-box;
+  border: 4px solid var(--swiper-preloader-color, var(--swiper-theme-color));
+  border-radius: 50%;
+  border-top-color: transparent;
+}
+.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader,
+.swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader {
+  animation: swiper-preloader-spin 1s infinite linear;
+}
+.swiper-lazy-preloader-white {
+  --swiper-preloader-color: #fff;
+}
+.swiper-lazy-preloader-black {
+  --swiper-preloader-color: #000;
+}
+@keyframes swiper-preloader-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Slide styles end */
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/modals/LayoutModal/LayoutModal.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.LayoutModal_modalOverlay__t9cV8 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+.LayoutModal_modalOverlay__t9cV8 .LayoutModal_modaScroll__h5cGl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+}
