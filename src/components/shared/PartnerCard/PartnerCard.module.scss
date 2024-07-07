@@ -26,11 +26,12 @@
     opacity: 1;
     filter: none;
     @include mixin.media-q("md") { 
-      transform: translateX(-10px);
+      transform: translateX(-20px)
     }
     @include mixin.media-q("xl") { 
-    transform: translateX(-30px);
+      transform: translateX(-40px)
     }
+   
   }
 
   &._disabled{
@@ -39,13 +40,13 @@
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
     pointer-events: none;
-    transform: translateX(-30px);
-
  
-    @include mixin.media-q("xxxl") { 
+    @include mixin.media-q("md") { 
       display: flex;
-      transform: translateX(-20px);
+    }
 
+    @include mixin.media-q("xl") { 
+      transform: translateX(-30px)
     }
   }
 

@@ -6,22 +6,15 @@ import { Navigation, Pagination, EffectCoverflow, Autoplay } from "swiper/module
 import CarouselButton from "../shared/Carousel/CarouselButton/CarouselButton";
 import CarouselPagination from "../shared/Carousel/CarouselPagination/CarouselPagination";
 import clsx from "clsx";
+import { isFirefox } from 'react-device-detect';
 import { useTranslations } from "next-intl";
 import styles from "./PartnerSection.module.scss";
-//import { partnerCardItems } from "./partnerCardItems";
+import { partnerCardItems } from "./partnerCardItems";
 
-import { useQuery } from "@tanstack/react-query";
-import { getAllPartners } from "@/src/api/partners";
+const isMobileFirefox = isFirefox && /Android/i.test(navigator.userAgent);
 
 const PartnerSection = () => {
-
- const { isLoading, isError, data }= useQuery({ queryKey: ['partners'], queryFn: getAllPartners })
-
   const t = useTranslations("Main.partners_section");
-
-  //if(isLoading){return <h1>Loading....</h1>}
-  //if(isError){return null}
-  if(isError){return <h1>Нажаль немає контенту</h1>}
 
   return (
     <section className={styles.section}>
@@ -29,57 +22,55 @@ const PartnerSection = () => {
         <div className={styles.titleRow}>
           <h2 className={styles.title}>{t("title")}</h2>
           <div className={styles.navigation}>
-            <CarouselButton
-              className={clsx("partner-prevBtn", styles.prevBtn)}
-            />
+            <CarouselButton className={clsx("partner-prevBtn", styles.prevBtn)} />
             <CarouselButton className="partner-nextBtn" />
           </div>
         </div>
         <div className={styles.sliderContainer}>
           <Carousel
-            delay={3000}
-            modules={[Navigation, Pagination, EffectCoverflow, Autoplay]}
+            delay={isMobileFirefox ? 5000 : 3000}
+            modules={[Navigation, Pagination, Autoplay]}
             paginationEl={".partner-custom-pagination"}
-            //items={partnerCardItems}
-            items={data?.results}
+            items={partnerCardItems}
             prevEl={".partner-prevBtn"}
             nextEl={".partner-nextBtn"}
-            loop={true}   
-            effect='coverflow'
+            effect={'coverflow'}
+            loop={true}
             centeredSlides={true}
             slidesPerView={1}
             spaceBetween={40}
             loopAdditionalSlides={0}
             breakpoints={{
               768: {
-              slidesPerView: 2,
-              loopAdditionalSlides:0,
-              spaceBetween:10
-            },
-            1366: {
-              slidesPerView: 3,
-              loopAdditionalSlides:2,
-              spaceBetween:10
-            }
-          }}
-            coverflowEffect={
-              {
-                rotate: 1,
-                stretch: 10,
-                depth: 350,
-                modifier: 1,
-                slideShadows: false,
+                slidesPerView: 2,
+                loopAdditionalSlides: 0,
+                spaceBetween: 10
+              },
+              1366: {
+                slidesPerView: 3,
+                loopAdditionalSlides: 2,
+                spaceBetween: 10
               }
-            }
-
+            }}
+            coverflowEffect={isMobileFirefox ? {
+              rotate: 5,
+              stretch: 0,
+              depth: 50,
+              modifier: 1,
+              slideShadows: false,
+            } : {
+              rotate: 10,
+              stretch: 10,
+              depth: 350,
+              modifier: 1,
+              slideShadows: false,
+            }}
             renderItem={(item) => (
               <PartnerCard key={item.id} item={item} />
             )}
           />
         </div>
-        <CarouselPagination
-          className={clsx("partner-custom-pagination", styles.pagination)}
-        />
+        <CarouselPagination className={clsx("partner-custom-pagination", styles.pagination)} />
       </div>
     </section>
   );
