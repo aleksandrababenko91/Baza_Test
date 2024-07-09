@@ -272,14 +272,12 @@
 .JoinProjectCard_cardContainer___MTFz {
   min-width: 278px;
   max-width: 100%;
-  padding: 8px;
   height: -moz-fit-content;
   height: fit-content;
 }
 @media only screen and (min-width: 768px) {
   .JoinProjectCard_cardContainer___MTFz {
     min-width: 688px;
-    max-width: 100%;
     position: -webkit-sticky;
     position: sticky;
     top: 150px;
@@ -289,14 +287,11 @@
 @media only screen and (min-width: 1366px) {
   .JoinProjectCard_cardContainer___MTFz {
     min-width: 1212px;
-    max-width: 100%;
   }
 }
 @media only screen and (min-width: 1920px) {
   .JoinProjectCard_cardContainer___MTFz {
-    height: 60vh;
     min-width: 1396px;
-    max-width: 100%;
   }
 }
 
@@ -315,33 +310,26 @@
   .JoinProjectCard_card__7l1DC {
     width: 100%;
     grid-template-columns: 1fr 3fr;
-    padding: 48px;
     overflow: hidden;
   }
 }
 @media only screen and (min-width: 1366px) {
   .JoinProjectCard_card__7l1DC {
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+    min-width: 1212px;
+    max-width: 1396px;
   }
 }
 @media only screen and (min-width: 1920px) {
   .JoinProjectCard_card__7l1DC {
-    position: relative;
-    top: -50%;
-    flex-direction: row;
     padding: 48px;
-    height: 400px;
-    gap: 32px;
-    overflow: hidden;
-    background-color: #180530;
-    min-width: 1396px;
-    max-width: 100%;
+    max-width: 1396px;
   }
 }
 
 .JoinProjectCard_textCard__br9Y2 {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   gap: 24px;
@@ -361,16 +349,6 @@
     padding: 0px 50px;
   }
 }
-@media only screen and (min-width: 1920px) {
-  .JoinProjectCard_textCard__br9Y2 {
-    justify-content: flex-start;
-    min-width: 1212px;
-    max-width: 100%;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-}
-
 .JoinProjectCard_titleWrapper__qvftM {
   display: flex;
   align-items: center;
@@ -389,18 +367,24 @@
   font-weight: 600;
   line-height: 150%;
 }
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 768px) {
   .JoinProjectCard_titleWrapper__qvftM {
-    gap: 24px;
-    padding: 10px;
-    height: 56px;
-    width: 907px;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     letter-spacing: 0.01em;
-    font-weight: 700;
-    line-height: 1.5;
-    border-bottom: 1px solid #ff62ce;
+    font-weight: 500;
+    line-height: 150%;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .JoinProjectCard_titleWrapper__qvftM {
+    gap: 24px;
+    width: 907px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    line-height: 150%;
   }
 }
 @media only screen and (min-width: 1920px) {
@@ -475,9 +459,6 @@
     letter-spacing: 0.01em;
     font-weight: 400;
     line-height: 150%;
-    text-align: start;
-    min-width: 1212px;
-    max-width: 100%;
   }
 }
 
@@ -548,15 +529,6 @@
 }
 
 .JoinProjectSection_titleWrapper__qPErl {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-  padding: 10px;
-  width: 100%;
-  height: 80px;
-  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   letter-spacing: 0.01em;
@@ -570,20 +542,10 @@
     letter-spacing: 0.01em;
     font-weight: 600;
     line-height: 150%;
-    width: 450px;
-    height: 68px;
   }
 }
 @media only screen and (min-width: 1366px) {
   .JoinProjectSection_titleWrapper__qPErl {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-    padding: 10px;
-    width: 558px;
-    height: 80px;
     font-family: "Open Sans", sans-serif;
     font-size: 40px;
     letter-spacing: 0.01em;

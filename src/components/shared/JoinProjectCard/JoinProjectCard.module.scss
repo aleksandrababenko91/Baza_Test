@@ -4,11 +4,10 @@
 .cardContainer {
   min-width: 278px;
   max-width: 100%;
-  padding: 8px;
   height: fit-content;
   @include mixins.media-q("md") {
     min-width: 688px;
-    max-width: 100%;
+
     position: sticky;
     top: 150px;
     height: 100vh;
@@ -16,12 +15,11 @@
 
   @include mixins.media-q("xl") { 
   min-width: 1212px;
-  max-width: 100%;
+
   }
   @include mixins.media-q("xxxl") { 
-  height: 60vh;
   min-width: 1396px;
-  max-width: 100%;
+
   }
 }
 
@@ -40,27 +38,22 @@
 @include mixins.media-q("md") {
     width: 100%;
     grid-template-columns: 1fr 3fr;
-    padding: 48px; 
     overflow: hidden;
  
   }
   
   @include mixins.media-q("xl") { 
-    grid-template-columns: 1fr 3fr;
-
+    grid-template-columns: 1fr 4fr;
+    min-width: 1212px;
+    max-width: 1396px;
   }
 
 @include mixins.media-q("xxxl") { 
-  position: relative;
-  top: -50%;
-  flex-direction: row;
+  // position: relative;
+  // top: -50%;
   padding: 48px;
-  height: 400px;
-  gap: 32px;
-  overflow: hidden;
-  background-color: var.$primary-fon-card;
-  min-width: 1396px;
-  max-width: 100%;
+  max-width: 1396px;
+
 
 }
 
@@ -68,7 +61,7 @@
 
 .textCard {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     gap: 24px;
@@ -89,10 +82,8 @@
   }
 
 @include mixins.media-q("xxxl") { 
-  justify-content: flex-start;
-  min-width: 1212px;
-  max-width: 100%;
-  height: fit-content;
+
+
 }
 }
 
@@ -109,13 +100,14 @@
   text-align: center;
   @include mixins.apply-font-styles(var.$h3-font);
 
+  @include mixins.media-q("md") { 
+  @include mixins.apply-font-styles(var.$h2-font);
+
+}
   @include mixins.media-q("xl") { 
   gap: 24px;
-  padding: 10px;
-  height: 56px;
   width: 907px;
-  @include mixins.apply-font-styles(var.$h4-font);
-  border-bottom: var.$border;
+  @include mixins.apply-font-styles(var.$h1-font);
 
 }
 @include mixins.media-q("xxxl") { 
@@ -167,9 +159,9 @@
   
   @include mixins.media-q("xxxl") { 
     @include mixins.apply-font-styles(var.$text-20-font);
-    text-align: start;
-    min-width: 1212px;
-    max-width: 100%;
+
+
+
   }
 }
 

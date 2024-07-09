@@ -32,8 +32,6 @@ export default function JoinProjectCard({ item = {}, i, progress, range, targetS
         <div  className={styles.svgWrapper}>
           <img
             className={styles.iconNumber}
-            height={250}
-            width={100}
             src={icon}>
           </img>
         </div>
@@ -45,18 +43,24 @@ export default function JoinProjectCard({ item = {}, i, progress, range, targetS
               src={image}>
             </img>
           </h3>
-          <p className={styles.text}>
+          <div className={styles.text}>
+            <div >
               <Icon className={styles.checkboxWrapper} name="check" width={24} height={24} />
+            </div>
             {t(text_1)}
-          </p>
-          <p className={styles.text}>
+          </div>
+          <div className={styles.text}>
+            <div>
               <Icon className={styles.checkboxWrapper} name="check" width={24} height={24} />
+            </div>
             {t(text_2)}
-          </p>
-          <p className={styles.text}>
+          </div>
+          <div className={styles.text}>
+            <div >
               <Icon className={styles.checkboxWrapper} name="check" width={24} height={24} />
+            </div>
             {t(text_3)}
-          </p>
+          </div>
         </div>
       </motion.div>
     </div>
