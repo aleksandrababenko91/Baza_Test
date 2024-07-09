@@ -2,25 +2,21 @@
 @use "../../../styles/variables" as var;
 
 .cardContainer {
-    min-width: 280px;
-    max-width: 688px;
-    min-height: 400px;
-    @include mixins.media-q("md") {
-      min-width: 688px;
-      max-width: auto;
-      padding: 24px;
+  min-width: 278px;
+  max-width: 100%;
+  padding: 8px;
+  height: fit-content;
+  @include mixins.media-q("md") {
+    min-width: 688px;
+    max-width: 100%;
+    position: sticky;
+    top: 150px;
+    height: 100vh;
   }
 
   @include mixins.media-q("xl") { 
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: sticky;
-  top: 150px;
   min-width: 1212px;
-  max-width: auto;
+  max-width: 100%;
   }
   @include mixins.media-q("xxxl") { 
   height: 60vh;
@@ -33,40 +29,25 @@
     background: var.$primary-fon-card;
     border: var.$border;
     border-radius: 24px;
-    padding: 48px;
-    min-width: 278px;
-    max-width: 686px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 0;
-    position: relative;
-    min-height: 400px;
-  padding: 20px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: fit-content;
+    padding: 28px 8px;
+
 
   
 @include mixins.media-q("md") {
-    min-width: 686px;
-    max-width: 1212px;
-    height: 400px;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 20px;
-    padding: 48px 0px;    
-    }
-
-@include mixins.media-q("xl") { 
-    position: relative;
-    top: -10%;
-    flex-direction: row;
-    padding: 48px;
-    min-width: 1212px;
-    max-width: 1396px;
-    height: 400px;
-    gap: 32px;
+    width: 100%;
+    grid-template-columns: 1fr 3fr;
+    padding: 48px; 
     overflow: hidden;
-    background-color: var.$primary-fon-card;
+ 
+  }
+  
+  @include mixins.media-q("xl") { 
+    grid-template-columns: 1fr 3fr;
+
   }
 
 @include mixins.media-q("xxxl") { 
@@ -86,39 +67,26 @@
 }
 
 .textCard {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 24px;
-  padding: 0px 8px;
-  min-width: 278px;
-  max-width: 515px;
-  height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    height: auto;
+    padding: 8px 0px;
 
 
   @include mixins.media-q("md")  { 
-    display: flex;
-    justify-content: flex-start;
+    text-align: center;
     gap: 32px;
-    min-width: 515px;
-    max-width: 915px;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 0;
-  }
+    width: 100%;
 
-  @include mixins.media-q("xl") { 
-  justify-content: center;
-  min-width: 915px;
-  max-width: 1212px;
-  height: fit-content;
-}
+  }
+  @include mixins.media-q("xl")  { 
+    padding: 0px 50px;
+
+  }
 
 @include mixins.media-q("xxxl") { 
   justify-content: flex-start;
@@ -165,7 +133,7 @@
 }
 
 .iconNumber {
-    width: 120px;
+    width: 90px;
     height: 246px;
   @include mixins.media-q("md") {
     width: 135px;
@@ -183,22 +151,18 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 16px;
-  min-width: 261px;
-  max-width: 515px;
+  width: fit-content;
   height: fit-content;
   text-align: center;
   @include mixins.apply-font-styles(var.$text-14-font);
 
   @include mixins.media-q("md")  {
-    min-width: 515px;
-    max-width: 915px;
     text-align: start;
     @include mixins.apply-font-styles(var.$text-18-font);
    }
 
   @include mixins.media-q("xl") { 
-    min-width: 915px;
-    max-width: 1212px;
+    
   }
   
   @include mixins.media-q("xxxl") { 
@@ -223,12 +187,11 @@
 
 
 .svgWrapper {
-  position: relative;
-  z-index: 1;
-  right: 90px;
+position: absolute;
   @include mixins.media-q("md") { 
     position: relative;
-  z-index: 0;
-  right: 0;
+  }
+  @include mixins.media-q("xl") { 
+
   }
 }
