@@ -45,19 +45,19 @@ export default function JoinProjectCard({ item = {}, i, progress, range, targetS
           </h3>
           <div className={styles.text}>
             <div >
-              <Icon className={styles.checkboxWrapper} name="check" width={24} height={24} />
+              <Icon  name="check" width={24} height={24} />
             </div>
             {t(text_1)}
           </div>
           <div className={styles.text}>
             <div>
-              <Icon className={styles.checkboxWrapper} name="check" width={24} height={24} />
+              <Icon name="check" width={24} height={24} />
             </div>
             {t(text_2)}
           </div>
           <div className={styles.text}>
             <div >
-              <Icon className={styles.checkboxWrapper} name="check" width={24} height={24} />
+              <Icon name="check" width={24} height={24} />
             </div>
             {t(text_3)}
           </div>

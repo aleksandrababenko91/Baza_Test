@@ -65,9 +65,9 @@ const PartnerSection = () => {
             }
           }}
           coverflowEffect={isMobileFirefox ? {
-            rotate: 5,
+            rotate: 2,
             stretch: 0,
-            depth: 50,
+            depth: 25,
             modifier: 1,
             slideShadows: false,
           } : {
