@@ -2124,7 +2124,7 @@
 }
 @media only screen and (min-width: 1366px) {
   .PartnerCard_partnerCardItem__Yga3n.PartnerCard__active__PrVry {
-    transform: translateX(-40px);
+    transform: translateX(-30px);
   }
 }
 .PartnerCard_partnerCardItem__Yga3n.PartnerCard__disabled__zEKV1 {
@@ -2156,7 +2156,7 @@
 @media only screen and (min-width: 768px) {
   .PartnerCard_partnerCardItem__Yga3n {
     width: 50vw;
-    height: 230px;
+    height: 200px;
   }
 }
 @media only screen and (min-width: 1366px) {
@@ -2173,11 +2173,11 @@
   background-image: linear-gradient(139deg, #db97c5 0%, #cc4fa3 16.91%, #a03a7e 39.6%, #6d2656 78.5%, #490735 100%);
   color: #fcfcfc;
   width: 100%;
-  padding: 32px 16px;
+  padding: 42px 16px;
 }
 @media only screen and (min-width: 768px) {
   .PartnerSection_section__lGe2o {
-    padding: 48px 16px;
+    padding: 48px 10px;
   }
 }
 @media only screen and (min-width: 1366px) {
@@ -2200,7 +2200,7 @@
 }
 @media only screen and (min-width: 768px) {
   .PartnerSection_container__Zei1q {
-    gap: 32px;
+    gap: 22px;
   }
 }
 @media only screen and (min-width: 1366px) {
@@ -2228,6 +2228,7 @@
     letter-spacing: 0.01em;
     font-weight: 600;
     line-height: 150%;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 1366px) {
@@ -2241,6 +2242,7 @@
 }
 
 .PartnerSection_sliderContainer__8LWdY {
+  will-change: transform;
   width: 95vw;
 }
 @media only screen and (min-width: 768px) {
@@ -2269,13 +2271,12 @@
 }
 @media only screen and (min-width: 768px) {
   .PartnerSection_titleRow__5_Pfp {
-    width: 688px;
+    width: 620px;
   }
 }
 @media only screen and (min-width: 1366px) {
   .PartnerSection_titleRow__5_Pfp {
     position: relative;
-    padding: 10px 0px;
     width: 1236px;
   }
 }
@@ -2298,7 +2299,6 @@
     display: flex;
     top: 0;
     right: 0;
-    gap: 32px;
     gap: 16px;
   }
 }

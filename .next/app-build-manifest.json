@@ -23,12 +23,6 @@
       "static/chunks/main-app.js",
       "static/css/app/[locale]/not-found.css",
       "static/chunks/app/[locale]/not-found.js"
-    ],
-    "/[locale]/internship/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/internship/page.css",
-      "static/chunks/app/[locale]/internship/page.js"
     ]
   }
 }
