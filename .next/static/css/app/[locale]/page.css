@@ -2191,7 +2191,7 @@
   }
 }
 
-.PartnerSection_wrapper__EQCa5 {
+.PartnerSection_container__Zei1q {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2199,17 +2199,17 @@
   gap: 20px;
 }
 @media only screen and (min-width: 768px) {
-  .PartnerSection_wrapper__EQCa5 {
+  .PartnerSection_container__Zei1q {
     gap: 32px;
   }
 }
 @media only screen and (min-width: 1366px) {
-  .PartnerSection_wrapper__EQCa5 {
+  .PartnerSection_container__Zei1q {
     gap: 48px;
   }
 }
 @media only screen and (min-width: 1920px) {
-  .PartnerSection_wrapper__EQCa5 {
+  .PartnerSection_container__Zei1q {
     gap: 56px;
   }
 }

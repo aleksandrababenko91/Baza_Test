@@ -474,7 +474,7 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/JoinProjectSection/JoinProjectSection.module.scss ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap");
-.JoinProjectSection_container__LnlOe {
+.JoinProjectSection_wrapper__rTfKn {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -488,7 +488,7 @@
   background: linear-gradient(139deg, #db97c5 0%, #cc4fa3 16.91%, #a03a7e 39.6%, #6d2656 78.5%, #490735 100%);
 }
 @media only screen and (min-width: 768px) {
-  .JoinProjectSection_container__LnlOe {
+  .JoinProjectSection_wrapper__rTfKn {
     gap: 32px;
     padding: 48px 40px;
     min-width: 768px;
@@ -496,7 +496,7 @@
   }
 }
 @media only screen and (min-width: 1366px) {
-  .JoinProjectSection_container__LnlOe {
+  .JoinProjectSection_wrapper__rTfKn {
     gap: 48px;
     padding: 60px 64px;
     min-width: 1366px;
@@ -504,7 +504,7 @@
   }
 }
 @media only screen and (min-width: 1920px) {
-  .JoinProjectSection_container__LnlOe {
+  .JoinProjectSection_wrapper__rTfKn {
     gap: 48px;
     padding: 72px 120px;
     min-width: 1920px;

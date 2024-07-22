@@ -27,7 +27,7 @@ const PartnerSection = () => {
 
   return (
     <section className={styles.section}>
-      <div className={styles.wrapper}>
+      <div className={styles.container}>
         <div className={styles.titleRow}>
           <h2 className={styles.title}>{t("title")}</h2>
           <div className={styles.navigation}>
