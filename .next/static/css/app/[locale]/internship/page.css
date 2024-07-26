@@ -278,15 +278,21 @@
 @media only screen and (min-width: 768px) {
   .JoinProjectCard_cardContainer___MTFz {
     min-width: 688px;
+  }
+}
+@media (min-width: 990px) {
+  .JoinProjectCard_cardContainer___MTFz {
     position: -webkit-sticky;
     position: sticky;
     top: 150px;
-    height: 100vh;
+    height: auto;
+    min-width: 900px;
   }
 }
 @media only screen and (min-width: 1366px) {
   .JoinProjectCard_cardContainer___MTFz {
     min-width: 1212px;
+    max-width: 1396px;
   }
 }
 @media only screen and (min-width: 1920px) {
@@ -340,6 +346,10 @@
   .JoinProjectCard_textCard__br9Y2 {
     text-align: center;
     gap: 32px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .JoinProjectCard_textCard__br9Y2 {
     padding: 0px 50px;
   }
 }
