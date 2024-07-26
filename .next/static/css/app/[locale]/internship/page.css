@@ -287,7 +287,6 @@
 @media only screen and (min-width: 1366px) {
   .JoinProjectCard_cardContainer___MTFz {
     min-width: 1212px;
-    max-width: 1396px;
   }
 }
 @media only screen and (min-width: 1920px) {
@@ -341,10 +340,6 @@
   .JoinProjectCard_textCard__br9Y2 {
     text-align: center;
     gap: 32px;
-  }
-}
-@media only screen and (min-width: 1366px) {
-  .JoinProjectCard_textCard__br9Y2 {
     padding: 0px 50px;
   }
 }
@@ -468,6 +463,8 @@
 @media only screen and (min-width: 768px) {
   .JoinProjectCard_svgWrapper__xBquB {
     position: relative;
+    display: flex;
+    justify-content: center;
   }
 }
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -482,7 +479,7 @@
   gap: 24px;
   padding: 32px 16px;
   min-width: 280px;
-  max-width: 768px;
+  max-width: 100%;
   height: -moz-fit-content;
   height: fit-content;
   background: linear-gradient(139deg, #db97c5 0%, #cc4fa3 16.91%, #a03a7e 39.6%, #6d2656 78.5%, #490735 100%);
@@ -492,7 +489,6 @@
     gap: 32px;
     padding: 48px 40px;
     min-width: 768px;
-    max-width: 1366px;
   }
 }
 @media only screen and (min-width: 1366px) {
@@ -500,7 +496,6 @@
     gap: 48px;
     padding: 60px 64px;
     min-width: 1366px;
-    max-width: 1920px;
   }
 }
 @media only screen and (min-width: 1920px) {
@@ -508,7 +503,6 @@
     gap: 48px;
     padding: 72px 120px;
     min-width: 1920px;
-    max-width: 100%;
     height: -moz-fit-content;
     height: fit-content;
     background: linear-gradient(139deg, #db97c5 0%, #cc4fa3 16.91%, #a03a7e 39.6%, #6d2656 78.5%, #490735 100%);
